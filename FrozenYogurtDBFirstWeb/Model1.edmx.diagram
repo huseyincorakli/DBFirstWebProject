@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="1757ddbdeea743aeaaf49157b7c8692a" Name="Diagram1">
+        <EntityTypeShape EntityType="FrozenYogurtModel.iletisim" Width="1.5" PointX="5.125" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="FrozenYogurtModel.kategori" Width="1.5" PointX="0.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="FrozenYogurtModel.urun" Width="1.5" PointX="3" PointY="1.25" IsExpanded="true" />
+        <AssociationConnector Association="FrozenYogurtModel.FK_urun_kategori" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="FrozenYogurtModel.kampanyaliurun" Width="1.5" PointX="7.375" PointY="1.5" />
+        <EntityTypeShape EntityType="FrozenYogurtModel.adminuser" Width="1.5" PointX="0.75" PointY="4.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

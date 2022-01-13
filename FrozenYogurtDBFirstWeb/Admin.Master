@@ -1,0 +1,40 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Admin.master.cs" Inherits="FrozenYogurtDBFirstWeb.Admin" %>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<title>Admin Paneli</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <asp:ContentPlaceHolder ID="cphHead" runat="server"></asp:ContentPlaceHolder>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Admin Panel</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li ><a href="adminAnasayfa.aspx">Anasayfa</a></li>
+      <li><a href="adminKategori.aspx">Kategori</a></li>
+      <li><a href="UrunListele.aspx">Ürünler</a></li>
+      <li><a href="adminKampanya.aspx">Kampanyalı Ürünler</a></li>
+      
+   
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="KayitOl.aspx"><span class="glyphicon glyphicon-user"></span> Kayıt Ol</a></li>
+      <li><a href="GirisYap.aspx"><span class="glyphicon glyphicon-log-in"></span> Giriş Yap</a></li>
+    </ul>
+  </div>
+</nav>
+  
+    <asp:ContentPlaceHolder ID="cphBody" runat="server"></asp:ContentPlaceHolder>
+
+</body>
+</html>
